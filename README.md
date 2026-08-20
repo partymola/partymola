@@ -2,7 +2,8 @@ A few projects I maintain. Mostly MCP servers that give an AI assistant read-onl
 
 ## MCP servers
 - [bosch-flow-mcp](https://github.com/partymola/bosch-flow-mcp) - Bosch eBike Flow (BES3 Smart System): battery health, charge cycles, components, service history, per-ride activity.
-- [fitbit-mcp](https://github.com/partymola/fitbit-mcp) - Fitbit Web API: OAuth PKCE, local SQLite cache, trend analysis.
+- [fitbit-mcp](https://github.com/partymola/fitbit-mcp) - Fitbit Web API: OAuth PKCE, local SQLite cache, trend analysis. Retired: the Fitbit Web API shuts down on 30 September 2026, and google-health-mcp supersedes it.
+- [google-health-mcp](https://github.com/partymola/google-health-mcp) - Google Health API: OAuth, local SQLite cache, daily auto-sync, trend analysis, ECG and irregular-rhythm records.
 - [monzo-mcp](https://github.com/partymola/monzo-mcp) - Monzo banking (read-only): OAuth + auto-refresh, local transaction cache, spending analysis.
 - [ticktick-mcp](https://github.com/partymola/ticktick-mcp) - TickTick tasks: field-preserving updates, day-of-week validation, read-after-write verification, completion tracking.
 - [withings-mcp](https://github.com/partymola/withings-mcp) - Withings health: OAuth, local cache, trend analysis (body / sleep / activity / workouts / ECG).
